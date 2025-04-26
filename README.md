@@ -4,5 +4,5 @@ This Macro performs an evaluation to quantify the registration error and to defi
 ## Software
 [Dragonfly 3D World software](https://dragonfly.comet.tech/) (version 2024.1, Comet Technologies Canada Inc., Montreal)
 
-## Instruation
+## Instruction
 ![](Instruction.png)
