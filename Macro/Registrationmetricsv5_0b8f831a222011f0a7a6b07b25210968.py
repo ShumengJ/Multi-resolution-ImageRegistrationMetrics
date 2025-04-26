@@ -339,7 +339,7 @@ aLR_HR_ndarray = HR_aLR.getNDArray()
 LR_HR_ndarray =HR_LR.getNDArray()
 LRedge_ndarray = LRedgeROI.getNDArray()
 aLRedge_ndarray = aLRedgeROI.getNDArray()
-result = ['Baseline error: '+str(np.sum(aLR_HR_ndarray)/np.sum(aLRedge_ndarray)*(np.sum(LRedge_ndarray)/np.sum(aLR_HR_ndarray)))+';  Registration error: '+str(np.sum(LR_HR_ndarray)/np.sum(LRedge_ndarray))]
+result = ['Baseline error: '+str(np.sum(aLR_HR_ndarray)/np.sum(aLRedge_ndarray)*(np.sum(LRedge_ndarray)/np.sum(aLRedge_ndarray)))+';  Registration error: '+str(np.sum(LR_HR_ndarray)/np.sum(LRedge_ndarray))]
 
 show_msgbox(result, 'Note: Registration error < baseline error indicates acceptable alignment.             ', 'Registration result')
 # ********** END MACRO ********** #
